@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Mulish');
+body{
+    margin:0;
+    padding: 0;
+    background-color: #98ABEE;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D24CA;
+    color: #fff;
+    font-family: 'Mulish',sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+img{
+    display: inline-block;
+    height: 50px;
+}
+.title{
+    margin-left: 10px;
+}
+.about,.vision{
+    margin: 10px;
+    width: 40%;
+    font-size: medium;
+    padding: 30px;
+    font-family: 'Mulish',sans-serif;
+    background-color: #fff;
+    border-radius: 25px;
+
+}
+.vision{
+    height: fit-content;
+    padding: 10px;
+    margin-left: -3px;
+}
+.title1{
+    font-family: 'Mulish',sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav{
+    float: right;
+    margin: 10px;
+    border-radius: 25px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Mulish',sans-serif;
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+.nav>a{
+    margin: 5px;
+    padding: 5px;
+}
+a:hover{
+    background-color:#1D24CA;
+    color: #fff;
+    
+}
+.comment{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    width: fit-content;
+    position: absolute;
+    right: 350px;
+    bottom: 10px;
+}
+textarea{
+    border-radius: 9px;
+    border: 3px solid #98ABEE;
+    width: 500px;
+    height: 100px;
+}
+button{
+    background-color: #1D24CA;
+    color: #fff;
+    font-family: "Mulish",sans-serif;
+    font-size: larger;
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+button:hover{
+    color: #1D24CA;
+    background-color: #fff;
+}
